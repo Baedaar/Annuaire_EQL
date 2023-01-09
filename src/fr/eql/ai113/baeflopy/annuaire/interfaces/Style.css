@@ -1,0 +1,113 @@
+
+
+MenuBar{
+    -fx-text-align: center;
+    -fx-text-base-color: white;
+    -fx-background-color : linear-gradient(to bottom, rgba(73,98,149,1), rgba(49,60,83,1));
+}
+
+
+Region{
+   -fx-background-color : linear-gradient(to bottom, rgba(73,98,149,1), rgba(49,60,83,1));
+}
+
+
+.table-view .column-header{
+    -fx-background-color : linear-gradient(to bottom, rgba(73,98,149,1), rgba(49,60,83,1));
+    -fx-text-background-color : white;
+}
+
+
+.table-view .column-header-background .filler {
+    -fx-background-color: linear-gradient(to bottom, rgba(73,98,149,1), rgba(49,60,83,1));
+}
+
+.table-view {
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+}
+
+
+.table-view:focused .table-row-cell:selected {
+    -fx-background-color: #364A5E;
+    -fx-table-cell-border-color: white;
+    -fx-text-background-color: white;
+}
+
+.table-row-cell: odd{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-text-background-color: black;
+    -fx-border-color: #445E78;
+}
+
+.table-row-cell: even {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-text-background-color: black;
+    -fx-border-color: #445E78;
+}
+
+.table-row-cell: hover {
+    -fx-background-color: #4b6cb1;
+    -fx-text-background-color: white;
+    -fx-border-color: #275858;
+}
+
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background {
+    -fx-background-color: linear-gradient(to bottom, rgba(73,98,149,0.5), transparent);
+}
+
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+
+#menu {
+    -fx-padding: 10;
+    -fx-font-size: 16;
+    -fx-font-family: Arial;
+}
+
+#menuitem {
+    -fx-text-base-color: black;
+}
+
+#Vboxtable {
+    -fx-background-image: url("background.png");
+}
+
+#StudentGridPane {
+    -fx-background-color: linear-gradient(to right, #FFFFFF, #445E78);
+}
+
+#Label {
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+}
+
+.menu-item:focused {
+     -fx-background-color: #4b6cb1;
+}
+
+.menu:hover {
+    -fx-background-color: #4b6cb1;
+}
+
+#OkBtn {
+    -fx-background-color: #4b6cb1;
+    -fx-text-base-color: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+
+#CancelBtn {
+    -fx-background-color: #4b6cb1;
+    -fx-text-base-color: white;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}

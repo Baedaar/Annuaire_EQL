@@ -1,0 +1,7 @@
+.idea/
+out/
+admin/
+files/
+logs/
+*.pdf
+*.iml
